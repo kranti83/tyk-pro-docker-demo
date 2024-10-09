@@ -11,7 +11,7 @@ services:
       tyk-postgres:
         condition: service_healthy
     ports:
-      - "3000:3000"
+      - "3000:13000"
     env_file:
       - ./confs/tyk_analytics.env
     networks:
